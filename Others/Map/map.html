@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9f8034721e954ca06c16e9da650017e3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9f8034721e954ca06c16e9da650017e3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9f8034721e954ca06c16e9da650017e3 = L.map(
+                "map_9f8034721e954ca06c16e9da650017e3",
+                {
+                    center: [40.0, -100.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7844a5dea8265a912adade080cdbcf97 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7844a5dea8265a912adade080cdbcf97.addTo(map_9f8034721e954ca06c16e9da650017e3);
+        
+    
+            var marker_57b521135180e1a329faa1dec0b994c1 = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(map_9f8034721e954ca06c16e9da650017e3);
+        
+    
+        var popup_97fe06167d6cd458294d746f2396863a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_232417471be7bd6466ac2be3ea66d85a = $(`<div id="html_232417471be7bd6466ac2be3ea66d85a" style="width: 100.0%; height: 100.0%;">New York, NY, United States</div>`)[0];
+                popup_97fe06167d6cd458294d746f2396863a.setContent(html_232417471be7bd6466ac2be3ea66d85a);
+            
+        
+
+        marker_57b521135180e1a329faa1dec0b994c1.bindPopup(popup_97fe06167d6cd458294d746f2396863a)
+        ;
+
+        
+    
+    
+            var marker_ed6d080b1bddc75c665d95b48106c07b = L.marker(
+                [37.4419, -122.1419],
+                {}
+            ).addTo(map_9f8034721e954ca06c16e9da650017e3);
+        
+    
+        var popup_4ba8c23e600977ce03fd44db3eb25c62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6c4c78c42b651ecd39be4b35298802a = $(`<div id="html_a6c4c78c42b651ecd39be4b35298802a" style="width: 100.0%; height: 100.0%;">Palo Alto, CA, United States</div>`)[0];
+                popup_4ba8c23e600977ce03fd44db3eb25c62.setContent(html_a6c4c78c42b651ecd39be4b35298802a);
+            
+        
+
+        marker_ed6d080b1bddc75c665d95b48106c07b.bindPopup(popup_4ba8c23e600977ce03fd44db3eb25c62)
+        ;
+
+        
+    
+    
+            var marker_ea6c3bbe7bb24edb156097e3ce09453a = L.marker(
+                [39.7392, -75.5444],
+                {}
+            ).addTo(map_9f8034721e954ca06c16e9da650017e3);
+        
+    
+        var popup_9eefbede213d72be92b887496777c4c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a15eea40088478a1cded9be2dc5eecd = $(`<div id="html_0a15eea40088478a1cded9be2dc5eecd" style="width: 100.0%; height: 100.0%;">Wilmington, DE, United States</div>`)[0];
+                popup_9eefbede213d72be92b887496777c4c0.setContent(html_0a15eea40088478a1cded9be2dc5eecd);
+            
+        
+
+        marker_ea6c3bbe7bb24edb156097e3ce09453a.bindPopup(popup_9eefbede213d72be92b887496777c4c0)
+        ;
+
+        
+    
+    
+            var marker_393a95e3fce7b06eae13d253ff4eefa8 = L.marker(
+                [33.0537, -96.6989],
+                {}
+            ).addTo(map_9f8034721e954ca06c16e9da650017e3);
+        
+    
+        var popup_6fdade8ad691642222e286ca8f0984e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04b01d50f72da3d15ee6b0ca9ff06bfa = $(`<div id="html_04b01d50f72da3d15ee6b0ca9ff06bfa" style="width: 100.0%; height: 100.0%;">Plano, TX, United States</div>`)[0];
+                popup_6fdade8ad691642222e286ca8f0984e7.setContent(html_04b01d50f72da3d15ee6b0ca9ff06bfa);
+            
+        
+
+        marker_393a95e3fce7b06eae13d253ff4eefa8.bindPopup(popup_6fdade8ad691642222e286ca8f0984e7)
+        ;
+
+        
+    
+</script>
+</html>

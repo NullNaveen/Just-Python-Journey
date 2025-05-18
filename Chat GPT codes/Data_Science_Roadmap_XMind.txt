@@ -1,0 +1,36 @@
+
+# Data Science Roadmap
+## Fundamentals
+### Mathematics for Data Science
+#### Linear Algebra
+#### Statistics
+#### Calculus Basics
+### Programming Foundations
+#### Python Basics
+#### Python Tools for Data Science
+##### NumPy
+##### Pandas
+##### Matplotlib & Seaborn
+### Introduction to Data Analysis
+#### Exploratory Data Analysis
+#### Practice Basic Data Projects
+
+## Core Data Science
+### Machine Learning Basics
+#### ML Concepts & Algorithms
+#### Scikit-Learn
+### Data Visualization Techniques
+#### Advanced Visualization Tools
+### Advanced Python Tools
+#### SQL for Data Science
+#### Regular Expressions
+
+## Specialization & Advanced Topics
+### Deep Learning
+#### DL Frameworks (TensorFlow, PyTorch)
+#### Convolutional Neural Networks (CNN)
+#### Natural Language Processing (NLP)
+### Big Data Tools
+#### Hadoop Ecosystem
+#### Apache Spark
+### Domain Knowledge

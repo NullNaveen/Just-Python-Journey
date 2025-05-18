@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Messages</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Messages</h1>
+    <ul>
+    {% for message in messages %}
+        <li>{{ message.text }} ({{ message.user.username }})</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
